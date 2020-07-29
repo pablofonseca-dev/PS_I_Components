@@ -1,0 +1,7 @@
+.search-molecule {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2;
+      grid-template-columns: 2;
+}
+/*# sourceMappingURL=search.css.map */

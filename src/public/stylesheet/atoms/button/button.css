@@ -1,0 +1,112 @@
+.button {
+  border: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+  cursor: pointer;
+  max-width: 1000px;
+}
+
+.button--bg-blue {
+  background-color: #86a7ff;
+}
+
+.button--bg-purple {
+  background-color: #7d5fff;
+}
+
+.button__link--fr-white {
+  color: #FFFFFF !important;
+}
+
+.button__link--fr-black {
+  color: #212121 !important;
+}
+
+.button__desc--arrow-effect {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  position: relative;
+  display: inline-block;
+}
+
+.button__desc--arrow-effect::after {
+  content: '\00bb';
+  color: #FFFFFF;
+  font-size: 1.5em;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  position: absolute;
+  top: -6px !important;
+  right: -20px;
+  display: none;
+}
+
+.button__desc--arrow-effect:hover {
+  padding-right: 24px;
+}
+
+.button__desc--arrow-effect:hover::after {
+  display: inline;
+  right: 0;
+}
+
+.button--pressed-effect {
+  position: relative;
+  -webkit-box-shadow: 0 9px #999;
+          box-shadow: 0 9px #999;
+}
+
+.button--pressed-effect:active {
+  transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  -moz-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  -o-transform: translateY(4px);
+  -webkit-box-shadow: 0 5px #666;
+          box-shadow: 0 5px #666;
+}
+
+.button__link {
+  text-decoration: none;
+  color: #212121;
+}
+
+.button__desc {
+  font-size: 1.2em;
+}
+
+.button__desc--fr-white {
+  color: #FFFFFF;
+}
+
+.button__desc--uppercase {
+  text-transform: uppercase;
+}
+
+.button--size-md {
+  width: 200px;
+  height: 55px;
+}
+
+.button--size-sm {
+  width: 100px;
+  height: 55px;
+  font-size: 0.8em;
+}
+
+.button--pill {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+/*# sourceMappingURL=button.css.map */
